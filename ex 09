@@ -1,0 +1,7 @@
+#faça um programa que leia um numero inteiro qualquer e#
+# mostre na tela a sua tabuada.#
+
+n =int (input ("a tabuada de "))
+q = n*1
+w = n*2
+print ('a tabuada de {} ,{},{}'.fomart(n,q,w))

@@ -1,0 +1,10 @@
+#desenvolva um programa que leia os duas notas de um aluno, cacule e moste
+# a sua média.#
+
+n1 = int (input("Digite sua nota da primeira unidade: "))
+n2 = int (input("Digite sua nota da segunda unidade: "))
+n3 = int (input("Digite sua nota da terceira unidade: "))
+media = (n1+n2+n3) /3
+
+print ('sua nota da primeira é {}, da segunda é {} e da tericera é {}. sua média é {} '.format(n1,n2,n3,media))
+
