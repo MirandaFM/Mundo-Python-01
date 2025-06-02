@@ -1,5 +1,9 @@
 #crie um algoritmo que leia um numero e mostre o seu dobro#
 #triplo e raiz quadrada#
+#outra maneira de fazer sem criar variaveis#
+#print ('seu numero digitado {} seu dobro e {} e seu triplo e  {} a raiz quadrada {}'.format(n,d,(d*2),t,(t*3),r,(r*(1/2))))#
+
+
 
 n = int (input ('digite um numero'))
 d = n*2
