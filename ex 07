@@ -1,4 +1,4 @@
-#desenvolva um programa que leia os duas notas de um aluno, cacule e moste
+#desenvolva um programa que leia os duas notas de um aluno, cacule e moste#
 # a sua média.#
 
 n1 = float (input("Digite sua nota da primeira unidade: "))
