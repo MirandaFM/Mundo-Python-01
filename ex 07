@@ -3,7 +3,7 @@
 
 n1 = float (input("Digite sua nota da primeira unidade: "))
 n2 = float (input("Digite sua nota da segunda unidade: "))
-media = (n1+n2 ) /2
+media = (n1+n2)/2
 
 print ('sua nota da primeira é {}, da segunda é {} . sua média é {} '.format(n1,n2,media))
 
