@@ -1,6 +1,6 @@
 #escreva um programa que leia um valor em metros e o exiba convertido em
 # centimetros e melimetros#
-#km hm dam m dm cm mm#
+# - km - hm - dam - m - dm - cm - mm - #
 
 medida = float (input ('Uma distância em metro: '))
 km = medida / 1000
