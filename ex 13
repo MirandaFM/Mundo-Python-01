@@ -4,4 +4,4 @@
 salario = float (input('digite seu salario'))
 novo = salario + (salario*15/100)
 
-print (' Seu salario atual é {} e com 15% é {}'.format (salario,novo))
+print (' Seu salario atual é {} e com 15% de aumnto é {}'.format (salario,novo))
