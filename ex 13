@@ -1,7 +1,7 @@
 #faça um algoritmo que leia o salario de um funcionario
 # e moste seu novo salarioa com 15% de aumento#
 
-salario = float (input('digite seu salario'))
+salario = float (input('digite seu salario R$'))
 novo = salario + (salario*15/100)
 
 print (' Seu salario atual é {} e com 15% de aumnto é {}'.format (salario,novo))
