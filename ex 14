@@ -1,0 +1,6 @@
+#escreva um programa que converta uma temperatura digitada em ºc celsius e converta em ºf Fahrenheit#
+#formula F = (C * 9/5) + 32.#
+cel = float (input ('Digite a temperatura atual: '))
+fah = (cel * 1.8) + 32
+
+print ('a temperatura de {}°c celsius corresponde a {}ºF Fahrenheit'.format(cel,fah))
