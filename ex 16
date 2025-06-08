@@ -3,11 +3,11 @@
 o numero 6.127 tem a parte inteira 6#
 duas formas de resolver
 
-#
+'''
 import math
 num = float (input ('Digite um valor: '))
 print ("o valor digitado foi {} e a sua porção inteira é {}".format(num,math.trunc(num)))
-#
+'''
 
 
 
