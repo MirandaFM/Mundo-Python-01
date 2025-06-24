@@ -1,0 +1,15 @@
+#faça um programa que leia o comprimento do cateto opsoto e do cateto adjacente de uma triângulo
+#retângulo,calcule e  mostre o comprimento da hipotenusa#
+
+#c1 = float (input ('Qual o comprimento do cateto oposto: '))
+#c2 = float (input('Qual o comprimento do cateto  adjacente: '))
+#hipotenusa = (c1 ** 2 + c2 ** 2) ** (1/2)
+#print ('logo sua hipotenusa é {:.2f}'.format(hipotenusa))#
+
+import math
+c1 = float (input ('Qual o comprimento do cateto oposto: '))
+c2 = float (input('Qual o comprimento do cateto  adjacente: '))
+hipotenusa = math.hypot(c1,c2)
+print ('logo sua hipotenusa é {:.2f}'.format(hipotenusa))
+
+
