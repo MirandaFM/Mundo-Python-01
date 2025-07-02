@@ -6,3 +6,8 @@ AULA 06
 
 AULA 09
 As principais operações que vamos aprender são o  Fatiamento de String, Análise com len(), count(), find(),  transformações com replace(), upper(), lower(), capitalize(), title(), strip(), junção com join().
+
+AULA 10
+if:
+else:
+como utilizar estruturas condcionais simples e compostas nos seus programas em Python.
