@@ -1,0 +1,6 @@
+time = str(input('Qual é seu time: '))
+if time == 'flamengo':
+    print('Isso Aqui é FLAMENGO')
+else:
+    print ('Seu time é ruim')
+print ('Chama'.format(time))
