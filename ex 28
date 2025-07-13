@@ -1,3 +1,17 @@
 # escreva um programa que faça o computador PENSAR em um número
 # inteiro entre 0 a 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo compitador.
 # o programa deverá escrver na tela se o usúario venceu ou perdeu
+
+from random import randint
+from time import sleep
+computador = randint(0,5)  # faz o computador "pensar"
+print ('-=-' *20)
+print('Vou pensar em um número entre 0 a 5. Tente adivinhar...')
+print ('-=-' *20)
+jogador = int (input(' Em que número eu pensei ? ')) # jogador tenta adivinhar
+print('PROCESSANDO...')
+sleep(2)
+if jogador == computador:
+    print (' PARABÉNS! você conseguiu me vencer!')
+else:
+    print('GANHEI! eu pensei no número {} e não no {}'.format(computador,jogador))
