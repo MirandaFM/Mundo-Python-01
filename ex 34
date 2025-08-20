@@ -1,3 +1,10 @@
 # escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento.
 # para salarios superiores a R$ 1.250,00,calcule um aumento de 10%
 # para os inferiores ou iguais o aumento é de 15%
+
+salário = float (input('Qual é o sálario do funcionário? '))
+if salário <= 1250:
+    novo = salário + (salário*15/100)
+else:
+    novo = salário+ (salário*10/100)
+print('Quem ganhavam R$ {:.2f} passa a ganhar {:.2f} agora '.format(salário,novo))
